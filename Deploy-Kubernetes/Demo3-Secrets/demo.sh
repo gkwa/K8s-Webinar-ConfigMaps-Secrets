@@ -10,7 +10,7 @@ kubectl get secret
 kubectl get secret -o yaml
 
 # decode the secret
-echo bXlwYXNzd29yZAo= | base64 --decode
+echo UzBtZVBAc3N3MHJE | base64 --decode
 
 # Create the pod
 kubectl create -f secret-pod.yml

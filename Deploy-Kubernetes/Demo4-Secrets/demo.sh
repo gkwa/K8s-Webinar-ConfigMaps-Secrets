@@ -2,7 +2,7 @@
 echo admin | base64
 
 # Create base64 encoded password
-echo mypassword | base64
+echo S0meP@ssw0rD | base64
 
 # Create generic secreate from YAML file
 kubectl create -f my-secret.yml
